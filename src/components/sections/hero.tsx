@@ -15,6 +15,15 @@ const HeroSection = () => {
       <div className="absolute inset-0 -z-10 bg-primary">
          <div className="absolute inset-0 bg-black/30"></div>
       </div>
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="absolute inset-0 -z-20 h-full w-full object-cover"
+        src="./videoplayback.mp4"
+        aria-label="Background video of the war"
+      />
       <div className="container z-10">
         <h1 className="animate-fade-in-up font-headline text-5xl font-bold tracking-tighter sm:text-6xl md:text-7xl lg:text-8xl" style={{ animationDelay: '0.2s' }}>
           A Corrida Armamentista

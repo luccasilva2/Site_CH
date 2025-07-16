@@ -4,7 +4,8 @@ import ArsenalChartSection from '@/components/sections/arsenal-chart-section';
 import TimelineSection from '@/components/sections/timeline-section';
 import FactsSection from '@/components/sections/facts-section';
 import InfographicsSection from '@/components/sections/infographics-section';
-import ReinterpretationSection from '@/components/sections/reinterpretation-section';
+// Removed ReinterpretationSection import as requested
+// import ReinterpretationSection from '@/components/sections/reinterpretation-section';
 
 export default function Home() {
   return (
@@ -16,7 +17,6 @@ export default function Home() {
         <TimelineSection />
         <FactsSection />
         <InfographicsSection />
-        <ReinterpretationSection />
       </main>
     </div>
   );

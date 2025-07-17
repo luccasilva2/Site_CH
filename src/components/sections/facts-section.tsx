@@ -49,4 +49,4 @@ const FactsSection = () => {
   );
 };
 
-export default FactsSection;
+export default FactsSection; 
